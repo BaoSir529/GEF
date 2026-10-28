@@ -1,0 +1,6 @@
+# Install torch separately from the official CUDA 12.6 index.
+transformers==4.56.2
+numpy==2.2.6
+PyYAML==6.0.2
+pytest==8.4.2
+safetensors==0.6.2

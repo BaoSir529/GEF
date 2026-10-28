@@ -1,0 +1,13 @@
+name: gef-evahan
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - transformers==4.56.2
+      - numpy==2.2.6
+      - PyYAML==6.0.2
+      - pytest==8.4.2
+      - safetensors==0.6.2
+# Then: conda run -n gef-evahan python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu126

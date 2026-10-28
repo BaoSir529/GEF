@@ -1,0 +1,27 @@
+# Local inputs and generated artifacts are never part of this source release.
+/data/
+/models/
+/runs/
+/reports/
+/LT4HALA-master/
+/.downloads/
+/cite/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.log
+*.csv
+*.jsonl
+*.zip
+*.pdf
+*.eps
+*.png
+.env
+.env.*
+*.pem
+*.key
