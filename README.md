@@ -2,6 +2,8 @@
 
 Source code for joint ancient Chinese word segmentation and part-of-speech (POS) tagging with a grid-based encoding framework (GEF).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 This repository contains the implementation, training configurations, input-download utilities, and unit tests. It does **not** distribute experimental results, analysis reports, training logs, figures, corpora, pretrained models, or trained checkpoints. Such artifacts are generated locally and excluded by `.gitignore`.
 
 ## Implementation
@@ -93,4 +95,14 @@ For a merged-inventory evaluation, use a matching configuration and gold with th
 | `scripts/` | Pinned external-input download and verification |
 | `tests/` | Unit and optional official-scorer integration tests |
 
-Local experiment summaries, plotting/analysis tools, simulation utilities, workstation launchers, and research notes are intentionally omitted. Only this README is included as Markdown documentation. No license grant is implied for third-party resources; repository licensing may be added by the authors separately.
+Local experiment summaries, plotting/analysis tools, simulation utilities, workstation launchers, and research notes are intentionally omitted. Only this README is included as Markdown documentation.
+
+## License
+
+The original code and documentation in this repository are open-source licensed under the **MIT License**. See [LICENSE](LICENSE) for the complete terms.
+
+You may use, modify, redistribute, sublicense, and use this code commercially, provided that the copyright and license notices are retained in copies or substantial portions of the software. The software is provided without warranty.
+
+The MIT License applies only to material authored for this project. EvaHan2022 data and official scoring scripts, SIKU-RoBERTa weights and associated files, and third-party dependencies remain subject to their respective licenses and usage terms. Downloading them with this project's utilities does not relicense them under MIT.
+
+If you use this implementation in academic work, please cite the accompanying GEF paper and acknowledge the original dataset and pretrained-model publications. This is a scholarly request, not an additional restriction on the MIT License.
